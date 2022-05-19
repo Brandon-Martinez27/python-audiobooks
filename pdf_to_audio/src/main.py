@@ -1,9 +1,10 @@
 import PyPDF2 as pdfr
 import pyttsx3 as pts
 
+from convert_pdf import *
 
 # Split pdf by page then reads text on each page
-pdfReader = pdfr.PdfFileReader(open("artifacts/sample.pdf", "rb"))
+pdfReader = pdfr.PdfFileReader(open("pdf_to_audio/src/artifacts/sample.pdf", "rb"))
 
 # Converts text to speech
 speaker = pts.init()
