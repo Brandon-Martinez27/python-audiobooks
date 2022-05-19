@@ -77,7 +77,7 @@ where speaker → the variable that is initialized already.
 1. Open and IDE like VS Code
 1. Navigate to your root project folder
 1. create a virtual env `python -m venv <folder_name>`
-1. Activate your venv `source venv/bin/activate`(mac/linux) `./venv/Scripts/activate` (windows)
+1. Activate your venv `source venv/bin/activate`:(mac/linux) `./venv/Scripts/activate`:(windows)
 1. Install dependencies `pip install -r requirements.txt`
 1. Run the main script `python main.py`
 
