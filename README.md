@@ -21,7 +21,7 @@ Python has a huge number of modules that contains reusable code which performs d
 - Install pyttsx3 module, using
 `pip install pyttsx3`
 
-### PyPDF2 module
+#### PyPDF2 module
 It is one of the Pure-Python libraries that runs on any Python platform without any external dependencies. It works entirely on StringIO rather than using FileStreams. PyPDF2 module performs various operations on PDF files. PyPDF2 module can perform some of the following tasks,
 - Fetching document information like title, author, etc.
 - Split and merge documents page by page.
@@ -29,7 +29,7 @@ It is one of the Pure-Python libraries that runs on any Python platform without 
 - Cropping a page to the required ratio.
 - Encryption and decryption of PDF files.
 
-### pyttsx3 module
+#### pyttsx3 module
 It is one of the popular modules in python which intakes text as an input and results in speech/audio as an output. Even this pyttsx3 module works offline, proving it a user-friendly module over other modules. It is compatible with Python version 2 as well as Python version 3.
 
 ### Importing modules
@@ -73,9 +73,22 @@ where speaker → the variable that is initialized already.
 - save_to_file( text, ‘filename.mp3’) → method used for saving an audio file.
 
 ## How to Reproduce
+### Steps
 1. Open and IDE like VS Code
 1. Navigate to your root project folder
 1. create a virtual env `python -m venv <folder_name>`
 1. Activate your venv `source venv/bin/activate`(mac/linux) `./venv/Scripts/activate` (windows)
 1. Install dependencies `pip install -r requirements.txt`
 1. Run the main script `python main.py`
+
+### Tools & Requirements
+- VS Code
+- Python 3.+
+- PyPDF2
+- pyttsx3
+
+## License
+MIT License
+
+## Creators
+Brandon Martinez
